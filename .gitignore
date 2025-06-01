@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distributions
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+# Poetry
+.venv
+
+# Specific to Windows
+*.log
+*.ini
+Thumbs.db
+
+# Specific to macOS
+.DS_Store
+
+# IDEs and editors
+.idea/                  # PyCharm
+.vscode/                # VS Code (settings, tasks, launch configs)
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# MyPy cache
+.mypy_cache/
+
+# Uploaded files or generated content
+# uploads/
+# media/
+
+# Environment variables
+.env
