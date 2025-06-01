@@ -1,0 +1,1 @@
+# 設定管理 (APIキー、Notion DB IDなど)
