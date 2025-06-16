@@ -41,7 +41,6 @@ async def create_kpt_session(
 
 @router.get("", response_model=List[KPTPage], status_code=201)
 async def list_kpt_sessions(
-    request_body: KPTWeekSessionCreateRequest,  
     notion_service: NotionService = Depends(get_notion_service)
 ):
     """
