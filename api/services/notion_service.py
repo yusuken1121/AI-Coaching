@@ -1,5 +1,5 @@
 from api.schemas.session_schema import KPTPage
-from core.config import settings
+from api.core.config import settings
 
 NOTION_VERSION = "2022-06-28"
 

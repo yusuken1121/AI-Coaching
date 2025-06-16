@@ -1,12 +1,12 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List # Listをインポート
 
-from app.models.session_models import (
+from api.schemas.session_schema import (
     KPTWeekSessionCreateRequest,
     KPTWeekSessionResponse, # KPTWeekSessionResponse もインポート (実際にはKPTPageを使うかもしれないので後で調整)
     KPTPage
 )
-from app.services.notion_service import NotionService
+from api.services.notion_service import NotionService
 
 
 router = APIRouter(
